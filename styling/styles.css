@@ -12,7 +12,12 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 25pt;
+    font-size: 35pt;
+}
+
+nav {
+
+    font-size: 20pt;
 }
 
 th {
