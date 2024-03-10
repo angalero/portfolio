@@ -1,4 +1,7 @@
 
+table {
+    border: 20px;
+}
 header {
         background-color:grey;
         text-align: center;
@@ -31,9 +34,7 @@ body {
     background-color: lightgray;
 }
 
-p {
-    
-}
+
 
 footer {
     background-color:grey;
