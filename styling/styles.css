@@ -1,6 +1,6 @@
 
 table {
-    border: 20px;
+    border: 20px outset;
 }
 header {
         background-color:grey;
