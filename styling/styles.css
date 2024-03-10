@@ -1,8 +1,18 @@
 
+header {
+        background-color:grey;
+        text-align: center;
+       /* padding: 30pt; */
+}
+
 h1 {
     text-align: center;
     font-size: 50pt;
-    
+}
+
+h2 {
+    text-align: center;
+    font-size: 25pt;
 }
 
 th {
@@ -10,16 +20,14 @@ th {
     padding: 50pt;
 }
 
-h2 {
-    text-align: center;
-}
+
 
 body {
     background-color: lightgray;
 }
 
 p {
-    font-size:x-large;
+    
 }
 
 footer {
