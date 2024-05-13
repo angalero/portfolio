@@ -4,20 +4,40 @@
 <head>
 
     <title>Angeline Gidaga Portfolio</title>
-    <link rel='stylesheet' href='styling\styles.css'/> 
+    <link rel='stylesheet' href='..\styling\styles.css'/> 
+    
+    <!-- function where the codes are located and
+    changes background colour-->
+    <script src="..\functions.js"></script>
+    <script src="..\info.js"></script>
 	
 </head>
 
-<body>
+<body onload="headerNav(), footer(), about()">
 
-    <h2>A Little About Me</h2>
+    <div id="headNav"></div>
 
 
-    <span>I am a student in my senior/4th year of College at Randolph-Macon College, Ashland, VA, USA. 
-        I expect to graduate in May 2023 with a BA in Theatre and Computer Science. I did a study abroad 
-        experience in Scotland at the University of Stirling and my plan is to go into a Computer Science 
-        related career, starting out in any department because I love to learn the different areas of 
-        Technology and I know various programming languages. I hope to end up in the Game Development 
-        industry as a final career path. </span>
+    <div>
+        <table class="mainBody" >
+            <tr>
+                <td colspan="3"><h2>About</h2></td>
+            </tr>
+
+            <tr >
+                <td class="pad"></td>
+                <td ><h3>Who I Am</h3>
+
+                    <span id="whoIAm"></span>
+
+                </td>
+                <td class="pad"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="foot"></div>
+
+    
 </body>
 </html>

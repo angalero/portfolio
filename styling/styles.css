@@ -23,9 +23,17 @@ nav {
     font-size: 20pt;
 }
 
+li {
+    display: inline;
+    padding-inline-start: 80px;
+}
+
 th {
     background-color: grey;
     padding: 50pt;
+}
+body {
+    background-color: black;
 }
 
 
@@ -34,6 +42,11 @@ th {
     background-color: lightgray;
 }
 
+
+.pad {
+
+    padding: 200pt;
+}
 
 
 footer {

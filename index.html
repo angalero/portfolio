@@ -5,53 +5,73 @@
 
     <title>Angeline Gidaga Portfolio</title>
    <link rel='stylesheet' href='styling\styles.css'/>
+
+   <!-- function where the codes are located and
+    changes background colour-->
+    <script src="functions.js"></script>
+    <script src="info.js"></script>
 	
 </head>
-<body>
+<body onload="footer(), about()">
 
     <div>
-        <header>
-            <h1>Angeline Gidaga</h1>
-            <h2> Portfolio </h2>
+
+
+       <header>
+            <h3>Angeline Gidaga</h3>
+            <h4> Portfolio </h4>
             <nav>
                 <ul>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="pages\about.html">About</a></li>
                     <li><a href="pages\resume.html">Resume</a></li>
                     <li><a href="pages\work.html">Work</a></li>
                     <li><a href="pages\contact.html"> Contact</a></li>
                 </ul>
             </nav>
-        </header>
+        </header> 
     </div>
+    
    
+
     <div>
-        <table class="mainBody">
+        <table >
+        <tr>
+            <td style="padding-left: 170px;">
+                <img src="images\Angie_big_HI.jpg" alt="Image of me" style="width:780px;height:950px;">
+            </td>
+            <td style="padding-left: 150px; padding-right: 150px; background-color: hwb(238 62% 24%);">
+                <h3>Official Site of Angie Gidaga</h3>
+                <span>
+                    BSc in Computer Science and Theatre
+                    Randolph-Macon College '23
+                </span>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+
+    <div>
+        <table class="mainBody" >
             <tr>
-                <td><h2>Home</h2></td>
+                <td colspan="3"><h2>Home</h2></td>
             </tr>
-            <tr>
-                <td></td>
-                <td><h3>A Little About Me</h3>
 
+            <tr >
+                <td class="pad"></td>
+                <td ><h3>A Little About Me</h3>
 
-                    <span>I am a student in my senior/4th year of College at Randolph-Macon College, Ashland, VA, USA. 
-                        I expect to graduate in May 2023 with a BA in Theatre and Computer Science. I did a study abroad 
-                        experience in Scotland at the University of Stirling and my plan is to go into a Computer Science 
-                        related career, starting out in any department because I love to learn the different areas of 
-                        Technology and I know various programming languages. I hope to end up in the Game Development 
-                        industry as a final career path. </span></td>
-                <td></td>
+                    <span id="begInfo"></span>
+                    <br><br>
+                    <button onclick="document.location='pages\\about.html'"> Read More > </button>
+                </td>
+                <td class="pad"></td>
             </tr>
         </table>
     </div>
 
-    <div>
-        <tr>
-            <footer>
-                <p> Created by Angeline Gidaga 2024 </p>
-            </footer>
-        </tr>
-    </div>
+    <div id="foot"></div>
 
 </body>
 
